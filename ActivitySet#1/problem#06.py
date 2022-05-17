@@ -2,15 +2,17 @@
 
 largest = None
 smallest = None
-
 while True:
-    num = input("Enter a number? ")
-
+  try:  
+    num = input("Enter a number: ")
     if num == "done":
+        print("Invalid input")
         break
-
-    # ...
-
-    print(num)
-
-print("Maximum", largest)
+    elif (largest == None or num < largest):
+        largest = num
+    elif (smallest == None or num < smallest):
+        smallest = num
+  except:
+            print("Invalid input")
+print("Maximum is", largest)
+print("Minimum is", smallest)
