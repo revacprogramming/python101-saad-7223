@@ -12,6 +12,6 @@ print("Pay", p)
 '''
 OUTPUT:
 python ActivitySet#1/problem#05.py
-Enter hours? 14
+Enter hours? 14 
 Enter rate per hour? 10
 Pay 140.0'''
