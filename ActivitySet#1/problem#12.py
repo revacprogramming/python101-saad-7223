@@ -9,6 +9,6 @@ for line in hand:
     x = x+y
 
 sum=0
-for z in x:
-    sum = sum + int(z)
+for k in x:
+    sum = sum + int(k)
 print(sum)
