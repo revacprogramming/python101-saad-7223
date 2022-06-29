@@ -12,3 +12,4 @@ sum=0
 for k in x:
     sum = sum + int(k)
 print(sum)
+ 
