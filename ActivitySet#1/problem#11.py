@@ -13,7 +13,7 @@ for line in handle:
         line=line.split()
         line=line[5]
         line=line[0:2]
-        d[line]=d.get(line,0)+1
+        d[line]=d.get(line,0)+1  
 lst=list()        
 for value,count in d.items():
     lst.append((value,count)) 
