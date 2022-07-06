@@ -1,8 +1,8 @@
 # Using Web Services
 # https://www.py4e.com/lessons/servces
 import urllib.request, urllib.parse, urllib.error 
-
 import xml.etree.ElementTree as ET
+
 url = input('Enter location: ')
 archivo = urllib.request.urlopen(url)
 data = archivo.read()
