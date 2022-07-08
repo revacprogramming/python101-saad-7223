@@ -1,6 +1,3 @@
-'''[('system','s'),('database','d'),('username','u'),('passwd','p')]
-system=s;database=d;username=u;passwd=p'''
-
 def get_cs():
     """get string input"""
     s=input("Enter a string : ")
@@ -15,7 +12,6 @@ def cs_to_lot(cs):
         x.append(tuple(a))
     return x
        
-
 def lot_to_cs(lot):
     """convert list of strings to connected string"""
     srt=""
@@ -25,13 +21,10 @@ def lot_to_cs(lot):
 
 def main():
     cs=get_cs()
-
     lot=cs_to_lot(cs)  # convert connect string to list of tuples
     print(lot)
-
     cs=lot_to_cs(lot)  # convert list of strings to connect string
     print(cs)
-
 
 if __name__ == '__main__':
     main()
