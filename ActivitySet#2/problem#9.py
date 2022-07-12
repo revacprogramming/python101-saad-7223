@@ -1,12 +1,13 @@
-
-
 class Menu(dict):
     """fill in class definition here"""
-
+    def __init__(self):
+        d.self=dict()
+    def __setitem__(self,k,v):
+      self.d[k]=v    
 
 class Order:
     """fill in class definition here"""
-
+    
 
 class Bill:
     """fill in class definition here"""
